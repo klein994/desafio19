@@ -1,10 +1,10 @@
 {
-  "name": "desafio-19",
+  "name": "desafio-17",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js --d --f"
   },
   "type": "module",
   "keywords": [],

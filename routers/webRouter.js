@@ -1,7 +1,7 @@
-import { Router } from "express";
+import {Router} from "express";
 import webControllers from "../controllers/webController.js";
-import { auth } from "../middlewares/middlewares.js";
-import { logInfo } from "../middlewares/logsMiddlewares.js";
+import {auth} from "../middlewares/middlewares.js";
+import {logInfo} from "../middlewares/logsMiddlewares.js";
 
 const router = new Router();
 
